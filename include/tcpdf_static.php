@@ -2095,6 +2095,8 @@ class TCPDF_STATIC {
 	 * @public static
 	 */
 	public static $page_formats = array(
+		// ZEBRA labels
+		'ZEBRA1'                 => array(  162.000,    90.000), // = (   57 x 32   ) mm  = (  2.25 x 1.25  ) in
 		// ISO 216 A Series + 2 SIS 014711 extensions
 		'A0'                     => array( 2383.937,  3370.394), // = (  841 x 1189 ) mm  = ( 33.11 x 46.81 ) in
 		'A1'                     => array( 1683.780,  2383.937), // = (  594 x 841  ) mm  = ( 23.39 x 33.11 ) in
